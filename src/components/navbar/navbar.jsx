@@ -16,7 +16,7 @@ const Navbar = () => {
                 </li>
                 <li className="navbar-item">
                     <a href="#" className="navbar-link">
-                        <img src="/public/ataev1.a8abd3c374603900fb01.png" alt="" />
+                        <img src="/public/ataev.png" alt="ataev" />
                     </a>
                 </li>
                 <li className="navbar-item">
