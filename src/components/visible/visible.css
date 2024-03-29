@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.visible {
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.ataevbahodirbuild.uz/static/media/city1.51e44d49b1c61434ca07.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.visible.container{
+    background-color: #007aff;
+}
+/* .container{
+    margin: 0 auto;
+    max-width: 1140px;
+    padding: 0 15px;
+} */

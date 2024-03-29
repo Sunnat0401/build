@@ -1,0 +1,12 @@
+.company{
+    background: url("/rating.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    color: white;
+}
+.company-title{
+    color: white;
+    padding: 100px 0;
+}

@@ -1,0 +1,8 @@
+.counter-card{
+    display: flex;
+}
+.counter-info{
+text-align: center;
+    padding: 10px 50px 10px 0;
+    align-items: center;
+}
