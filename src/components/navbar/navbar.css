@@ -10,7 +10,9 @@
     background-repeat: no-repeat;
     background-size: cover;     
     background-blend-mode: darken;
+    background-attachment: fixed;
 }
+
 .navbar  .wrapper{
     display: flex;
     justify-content: space-evenly   ;
@@ -18,8 +20,10 @@
     width: 100%;
     padding: 0 15px;
     position: fixed;
+    z-index: 100;
 }
-.navbar.active{
+
+.active{
     align-items: center;
     background: #fce8bd;
     color: #000;
@@ -27,7 +31,10 @@
     justify-content: center;
     text-align: center;
 }
-
+.active .navbar-link{
+    color: #000;
+    font-weight: bold;
+}
 .navbar-list {
     display: flex;
     justify-content: space-between;
@@ -55,11 +62,20 @@
  .navbar-link:hover::after{
     transform: scale(1, 1);
 }
-
+.active .navbar-item:nth-child(4) .navbar-link img{
+    background: rgba(0,0,0,0.5) ;
+    background-blend-mode: darken;
+    border: none;
+}
 .navbar-item:nth-child(4) .navbar-link img{
     width: 120px;
     height: 72px;
 } 
+.active .navbar-select{
+    background-color: transparent;
+    color: black;
+    border-radius: 3px;
+}
 .navbar-select{
     padding: 4px 15px;
     background-color: transparent;

@@ -8,35 +8,54 @@ const CounterUpPage = () => {
     <div className='counter-card'>
       <div className='counter-info'>
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() =>setCounterOn(false)}>
+                        { 
+                          counterOn &&
+                        <span>
                <h1>
-               <CountUp start={0} end={120} duration={2} delay={2}/>  +
+                                         <CountUp start={0} end={120} duration={2} delay={0.5}/>  +
                </h1>
-    </ScrollTrigger>
         <p>Xodimlar soni</p>
+        </span>
+                        }
+    </ScrollTrigger>
       </div>
       <div className='counter-info'>
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() =>setCounterOn(false)}>
-               <h1>
-               <CountUp start={0} end={120} duration={2} delay={2}/>  +
+                { counterOn &&
+            <span>
+                   <h1>
+                  <CountUp start={0} end={120} duration={2} delay={0.5}/>  +
                </h1>
+                      <p>Ob'ektlar</p>
+                </span>
+                }
     </ScrollTrigger>
-    <p>Ob'ektlar</p>
       </div>
       <div className='counter-info'>
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() =>setCounterOn(false)}>
+                     {
+               counterOn && 
+                      <span>
                <h1>
-               <CountUp start={0} end={43} duration={2} delay={2}/>  +
+               <CountUp start={0} end={43} duration={2} delay={0.5}/>  +
                </h1>
+               <p>Maxsus jihozlar</p>
+               </span>
+                     }
     </ScrollTrigger>
-    <p>Maxsus jihozlar</p>
       </div>
       <div className='counter-info'>
     <ScrollTrigger onEnter={() => setCounterOn(true)} onExit={() =>setCounterOn(false)}>
-               <h1>
-               <CountUp start={0} end={250} duration={2} delay={2}/>  +
+                {
+               counterOn && 
+                  <span>
+                    <h1>
+               <CountUp start={0} end={250} duration={2} delay={0.5}/>  +
                </h1>
+               <p>Bozorda 14 yil</p>
+               </span>
+                }
     </ScrollTrigger>
-    <p>Bozorda 14 yil</p>
       </div>
     </div>
   )

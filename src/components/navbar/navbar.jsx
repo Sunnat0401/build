@@ -1,9 +1,19 @@
+import { useState } from 'react'
 import Header from '../header/header'
 import './navbar.css'
 const Navbar = () => {
+    const [color, setColor] = useState(false)
+const changeColor = ()=>{
+    if(window.scrollY >= 90){
+        setColor(true)
+    }else{
+        setColor(false)
+    }
+}
+ window.addEventListener('scroll' , changeColor)
   return (
-    <div className='navbar'>
-       <div className="wrapper active">
+    <div className= "navbar">
+       <div className={color ? "wrapper active" : "wrapper"}>
                 
                 <ul className="navbar-list">
                     <li className="navbar-item">
