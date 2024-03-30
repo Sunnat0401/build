@@ -5,24 +5,40 @@
 }
 .navbar{
     width: 100%;
-
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.5) url("https://www.ataevbahodirbuild.uz/static/media/city1.51e44d49b1c61434ca07.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;     
+    background-blend-mode: darken;
 }
-.navbar.container{
+.navbar  .wrapper{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly   ;
     align-items: center;
+    width: 100%;
+    padding: 0 15px;
+    position: fixed;
 }
+.navbar.active{
+    align-items: center;
+    background: #fce8bd;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
 .navbar-list {
     display: flex;
     justify-content: space-between;
     align-items: center;
-   padding: 20px 0;
+   padding: 20px 0;;
 
 }
 .navbar-link{
    color: rgba(255, 255, 255, 0.829);
    position: relative;
-   padding: 5px 0;
+   padding: 5px 25px;
 
 }
 .navbar-link::after{
@@ -50,4 +66,7 @@
     color: #fff;
     background-color: #007aff;
    /* outline: none; */
+}
+.hamburger{
+    display: none;
 }

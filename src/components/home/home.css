@@ -1,0 +1,13 @@
+.home{
+    width: 100%;
+}
+.home-top, .home-bottom{
+    width: 100%;
+display: flex;
+}
+.home-img{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 500px;
+    height: 350px;
+}
