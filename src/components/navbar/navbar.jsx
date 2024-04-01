@@ -35,7 +35,7 @@ const changeColor = ()=>{
                     </li>
                     <li className="navbar-item">
                         <a href="#" className="navbar-link">
-                            <img src="/public/ataev.png" alt="ataev" />
+                            <img src="/ataev.png" alt="ataev" />
                         </a>
                     </li>
                     <li className="navbar-item">
