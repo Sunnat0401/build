@@ -6,7 +6,7 @@ const News = () => {
         <h1 className='news-title'>Barcha Yangiliklar</h1>
             <div   className="news-wrapper">
                 <div  data-aos="fade-right" className="news-card">
-                    <img src="/public/new1.jpg" alt="news" />
+                    <img src="/new1.jpg" alt="news" />
                     <div className='news-info'>
                         <span></span>
                         <h2>Qurilish loyihasi menejeri kim?</h2>
@@ -14,7 +14,7 @@ const News = () => {
                     </div>
                 </div>
                 <div data-aos="fade-left" className="news-card">
-                    <img src="/public/new2.jpg" alt="img" />
+                    <img src="/new2.jpg" alt="img" />
                     <div className='news-info'>
                              <span className='news-btn'></span>
                         <h2>Barchani kelayotgan 2024 yil bilan tabriklayman!</h2>
@@ -22,7 +22,7 @@ const News = () => {
                     </div>
                 </div>
                 <div  data-aos="fade-right"  className="news-card">
-                    <img src="/public/new3.jpg" alt="new" />
+                    <img src="/new3.jpg" alt="new" />
                     <div className='news-info'>
                         <span></span>
                         <h2>
@@ -31,7 +31,7 @@ Manzil</h2>
                     </div>
                 </div>
                 <div data-aos="fade-left" className="news-card">
-                    <img src="/public/new4.jpg" alt="img" />
+                    <img src="/new4.jpg" alt="img" />
                     <div className='news-info'>
                              <span className='news-btn'></span>
                         <h2>Biz Tanishtirishda  davom etamiz.</h2>

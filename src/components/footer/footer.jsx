@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="wrapper">
                 <div className="card">
                     <a href="#" className='footer-imgs'>
-                    <img className='footer-img' src="/public/ataev2.png" alt="ataev" />
+                    <img className='footer-img' src="/ataev2.png" alt="ataev" />
                     </a>
                     <h2 className='footer-title'>Ijtimoiy tarmoqlarimizga obuna bo'ling</h2>
                    <ul className='card-lists'>
