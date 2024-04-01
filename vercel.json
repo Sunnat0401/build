@@ -1,3 +1,0 @@
-{
-    "revrites":[{"source" : "/(.*)" , "destination" :"/"} ]
-}
