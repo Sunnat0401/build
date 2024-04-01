@@ -10,8 +10,8 @@ const Footer = () => {
                     </a>
                     <h2 className='footer-title'>Ijtimoiy tarmoqlarimizga obuna bo'ling</h2>
                    <ul className='card-lists'>
-                    <li className='card-list'>  <i class="fa-brands fa-instagram"></i></li>
-                         <li className='card-list'><i class="fa-brands fa-facebook"></i>
+                    <li className='card-list'>  <i className="fa-brands fa-instagram"></i></li>
+                         <li className='card-list'><i className="fa-brands fa-facebook"></i>
 </li>                 
                    </ul>
                 </div>

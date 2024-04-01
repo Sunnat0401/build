@@ -56,10 +56,10 @@
 .navbar-link::after{
     content: "";
     position: absolute;
-    height:  4px;
+    height:  2.5px;
     width: 100%;
     left: 0;
-    bottom: 0;
+    bottom: -4px;
     background-color: #fff;
     transform: scale(0, 1);
     transition: transform 0.3s ease;

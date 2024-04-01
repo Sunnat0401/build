@@ -6,7 +6,7 @@ const News = () => {
         <h1 className='news-title'>Barcha Yangiliklar</h1>
             <div   className="news-wrapper">
                 <div  data-aos="fade-right" className="news-card">
-                    <img src="/public/new1.jpg" alt="" />
+                    <img src="/public/new1.jpg" alt="news" />
                     <div className='news-info'>
                         <span></span>
                         <h2>Qurilish loyihasi menejeri kim?</h2>
@@ -22,7 +22,7 @@ const News = () => {
                     </div>
                 </div>
                 <div  data-aos="fade-right"  className="news-card">
-                    <img src="/public/new3.jpg" alt="" />
+                    <img src="/public/new3.jpg" alt="new" />
                     <div className='news-info'>
                         <span></span>
                         <h2>

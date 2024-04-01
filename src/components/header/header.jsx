@@ -8,8 +8,8 @@ const Header = () => {
             <h2  className='heading'>BAHODIR BUILD</h2>
             <p>Hamma narsada a'lo</p>
             <div className="header-btns">
-                <button className='header-btn'>Bizning loyihalarimiz</button>
-                <button className='header-btn'>Bog'lanish</button>
+                <button className='header-btn'><a href="#advantages">Afzalliklarimiz</a></button>
+                <button className='header-btn'><a href="#connect">Bog'lanish</a></button>
             </div>
           </div>
         </div>

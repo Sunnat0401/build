@@ -12,7 +12,6 @@ const Home = () => {
                 <img className='home-img' src="/public/img4.jpg" alt="image" />
                 <img className='home-img' src="/public/img5.jpg" alt="image" />
                 <img className='home-img' src="/public/img6.jpg" alt="image" />
-
               </div>
         </div>
   )

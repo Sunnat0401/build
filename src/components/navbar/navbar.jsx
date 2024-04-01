@@ -1,7 +1,14 @@
-import { useState } from 'react'
+import { useState,  } from 'react'
 import Header from '../header/header'
+import {useTranslation} from 'react-i18next'
 import './navbar.css'
-const Navbar = () => {
+
+const Navbar = ({ changeLang }) => {
+
+ const changelangHandler = (e) =>{
+    changeLang(e.target.value)
+ }
+  const {t} = useTranslation()
     const [color, setColor] = useState(false)
 const changeColor = ()=>{
     if(window.scrollY >= 90){
@@ -18,13 +25,13 @@ const changeColor = ()=>{
                 
                 <ul className="navbar-list">
                     <li className="navbar-item">
-                        <a href="#info" className="navbar-link">Malumotlar</a>
+                        <a href="#info" className="navbar-link">{t("data")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#about" className="navbar-link">Biz haqimizda</a>
+                        <a href="#about" className="navbar-link">{t("aboutUs")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#services" className="navbar-link">Xizmatlar</a>
+                        <a href="#services" className="navbar-link">{t("services")}</a>
                     </li>
                     <li className="navbar-item">
                         <a href="#" className="navbar-link">
@@ -32,17 +39,17 @@ const changeColor = ()=>{
                         </a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#advantages" className="navbar-link">Afzalliklarimiz</a>
+                        <a href="#advantages" className="navbar-link">{t("ourAdvantages")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#news" className="navbar-link">Yangiliklar</a>
+                        <a href="#news" className="navbar-link">{t("news")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#connect" className="navbar-link">Aloqa</a>
+                        <a href="#connect" className="navbar-link">{t("contact")}</a>
                     </li>     
-                    <select name="" id="" className='navbar-select'>
-                                <option value="">Uz</option>
-                                <option value="">En</option>
+                    <select className='navbar-select' onChange={changelangHandler}>
+                                <option value="uz">Uz</option>
+                                <option value="en">En</option>
                             </select>
                 </ul>
     
