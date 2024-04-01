@@ -6,12 +6,11 @@
 .project-cards{
     display: flex;
     flex-wrap: wrap;
-    padding: 50px 30px;
+    /* padding: 0px 30px; */
 }
-.projects-title{
-    text-align: start;
-    padding: 10px 0px 0px 15px;
-}
+/* .projects-title{
+    padding: 10px 20px;
+} */
 .project-card{
     width: 100%;
     height: 320px;
@@ -23,7 +22,7 @@
     /* justify-content: ; */
 }
 .card-right{
-    width: 500px;
+    width: 540px;
     height: 320px;
     background: rgba(0,0,0,0.5) url('/public/mgc1.webp');
     background-size: cover;
@@ -35,7 +34,7 @@
 
 }
 .card-left{
-    width: 500px;
+    width: 540px;
     height: 320px;
     background: rgba(0,0,0,0.5)  url('/public/mg2.webp');
     background-size: cover;

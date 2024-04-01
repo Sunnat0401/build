@@ -4,10 +4,12 @@
 .news-wrapper{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    /* flex-direction: ; */
+    justify-content: space-between;
     color: #030303;
     background-color: #fff;
+}
+.news-title{
+    padding: 0 20px;
 }
 .news-card{
     display: flex;
@@ -32,5 +34,9 @@ margin: 10px 0;
   border-radius: 5px;
 }
 .news-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 0px 10px;
 }

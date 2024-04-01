@@ -12,7 +12,7 @@ const CounterUpPage = () => {
                           counterOn &&
                         <span>
                <h1>
-                                         <CountUp start={0} end={120} duration={2} delay={0.5}/>  +
+                                         <CountUp start={0} end={120} duration={2} delay={0.2}/>  +
                </h1>
         <p>Xodimlar soni</p>
         </span>
@@ -24,7 +24,7 @@ const CounterUpPage = () => {
                 { counterOn &&
             <span>
                    <h1>
-                  <CountUp start={0} end={120} duration={2} delay={0.5}/>  +
+                  <CountUp start={0} end={83} duration={2} delay={0.2}/>  +
                </h1>
                       <p>Ob'ektlar</p>
                 </span>
@@ -37,7 +37,7 @@ const CounterUpPage = () => {
                counterOn && 
                       <span>
                <h1>
-               <CountUp start={0} end={43} duration={2} delay={0.5}/>  +
+               <CountUp start={0} end={43} duration={2} delay={0.2}/>  +
                </h1>
                <p>Maxsus jihozlar</p>
                </span>
@@ -50,7 +50,7 @@ const CounterUpPage = () => {
                counterOn && 
                   <span>
                     <h1>
-               <CountUp start={0} end={250} duration={2} delay={0.5}/>  +
+               <CountUp start={0} end={250} duration={2} delay={0.2}/>  +
                </h1>
                <p>Bozorda 14 yil</p>
                </span>

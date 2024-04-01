@@ -1,6 +1,12 @@
 .home{
-    width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
+.home-title{
+    text-align: center  ;
+    padding: 10px 0;
+}
+
 .home-top, .home-bottom{
     width: 100%;
 display: flex;

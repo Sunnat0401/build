@@ -2,7 +2,7 @@ import './home.css'
 const Home = () => {
   return (
     <div className="home">
-            <h1>Sizning orzuyingizdagi uy</h1>
+              <h1 className='home-title'>Sizning orzuyingizdagi uy</h1>
               <div className="home-top">
                 <img className='home-img' src="/public/img1.jpg" alt="image" />
                 <img className='home-img' src="/public/img2.jpg" alt="image" />
