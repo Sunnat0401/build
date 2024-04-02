@@ -6,7 +6,7 @@ const Header = () => {
           <div className='header-wrapper'>
             <h1 className='heading'>ATAEV</h1>
             <h2  className='heading'>BAHODIR BUILD</h2>
-            <p>Hamma narsada a'lo</p>
+            <p className='header-text'>Hamma narsada a'lo</p>
             <div className="header-btns">
                 <button className='header-btn'><a href="#advantages">Afzalliklarimiz</a></button>
                 <button className='header-btn'><a href="#connect">Bog'lanish</a></button>

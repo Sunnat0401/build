@@ -1,6 +1,7 @@
 .header{
     padding: 100px 0;
-    line-height: 36px;    width: 100%;
+    line-height: 36px; 
+   width: 100%;
    text-decoration: none;
 }
 .container{
@@ -14,11 +15,11 @@
 
 .heading{
     color: #fff;
-    font-size: 5.35rem;
+    font-size: 100px;
     font-weight: 700;
  padding: 30px 0px;
 }
-.container p{
+.header-text{
     font-size: 24px;
     font-weight: 400;
     color: #fff;
@@ -52,4 +53,137 @@
 }
 .header-btn:hover a{
     color: black;
+}
+/* Responsive */
+@media screen and (max-width: 900px){
+    .header{
+        padding: 80px 0;
+    }
+    .heading{
+        color: #fff;
+        font-size: 70px;
+        font-weight: 700;
+     padding: 30px 0px;
+    }
+    .header-text{
+        font-size: 20px;
+    }
+    .header-btns{
+        padding: 15px 0;
+    }
+}
+@media screen and (max-width: 700px){
+    .header{
+        padding: 80px 0;
+    }
+    .heading{
+        color: #272525f1;
+        font-size: 60px;
+    }
+    .header-wrapper{
+        padding: 70px 0;
+    }
+    
+    .header-text{
+        font-size: 24px;
+        color: #272525f1;
+    }
+    .header-btns{
+        display: flex;
+        padding: 20px 0;
+        gap: 10px;
+    }
+    .header-btn{
+        /* background-color: initial; */
+        border: 2px solid #272525f1;
+        background-color: #e9e2e2;
+    }
+    .header-btn a{
+        color: #272525f1;
+
+    }
+    .header-btn:hover{
+        background-color: #fff;
+        color: black;
+    }
+    .header-btn:hover a{
+        color: rgb(36, 34, 34);
+    }
+
+}
+@media screen and (max-width: 568px){
+    .header{
+        padding: 60px 0;
+        line-height: 20px; 
+    }  
+    .heading{
+        color: #272525f1;
+        font-size: 40px;
+    }
+    .header-text{
+        font-size: 22px;
+    }
+    .header-btns{
+        display: flex;
+        padding: 40px 0;
+        gap: 10px;
+    }
+    .header-btn{
+        width: 120px;
+    }
+}
+@media screen and (max-width: 402px){
+    .heading{
+        font-size: 30px;
+     padding: 20px 0px;
+    }
+    .header-text{
+        font-size: 20px;
+        padding: 10px 0;
+    }
+    .header-btns{
+        padding: 50px 0;
+    }
+    .header-btn{
+        font-size: 15px;
+         height: 40px;    
+        width: 100px;
+    }
+    .header-btn a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 330px){
+    .heading{
+        font-size: 28px;
+     padding: 18px 0px;
+    }
+    .header-btns{
+        padding: 40px 0;
+    }
+    .header-btn{
+        font-size: 15px;
+         height: 35px;    
+        width: 90px;
+    }
+    .header-btn a{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 330px){
+    .heading{
+        font-size: 24px;
+     padding: 18px 0px;
+    }
+    .header-btns{
+        padding: 40px 0;
+    }
+    .header-btn{
+        font-size: 15px;
+         height: 35px;    
+        width: 90px;
+    }
+    .header-btn a{
+        font-size: 13px;
+    }
 }

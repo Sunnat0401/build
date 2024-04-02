@@ -2,7 +2,7 @@
     background: url("/rating.png");
     background-size: cover;
     background-repeat: no-repeat;
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     height: 650px;
     color: white;

@@ -19,10 +19,9 @@ const changeColor = ()=>{
 }
  window.addEventListener('scroll' , changeColor)
   return (
-    <div className="navbar-wrapper">
                 <div className= "navbar">
        <div className={color ? "wrapper active" : "wrapper"}>
-                
+            
                 <ul className="navbar-list">
                     <li className="navbar-item">
                         <a href="#info" className="navbar-link">{t("data")}</a>
@@ -63,7 +62,6 @@ const changeColor = ()=>{
         <Header/>
             
               </div>
-    </div>
     </div>
 
     

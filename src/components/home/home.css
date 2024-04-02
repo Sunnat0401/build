@@ -1,6 +1,12 @@
 .home{
-  max-width: 1440px;
+  width: 100%;
   margin: 0 auto;
+  background: #fce8bd;
+
+}
+.home-wrapper{
+   width: 100%;
+   margin: 0 auto !important;
 }
 .home-title{
     text-align: center  ;
@@ -10,6 +16,7 @@
 .home-top, .home-bottom{
     width: 100%;
 display: flex;
+justify-content: center;
 }
 .home-img{
     background-size: cover;

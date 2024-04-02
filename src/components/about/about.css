@@ -1,5 +1,6 @@
 .about{
-   max-width: 1440px;
+   
+    width: 100%;
    margin: 0 auto;
     background: url('/public/bg1.png');
     background-size: cover;
