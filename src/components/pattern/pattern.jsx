@@ -1,9 +1,11 @@
+import {useTranslation} from 'react-i18next'
 import './pattern.css'
 const Pattern = () => {
+  const {t} = useTranslation()
   return (
     <div className='pattern'>
         {/* <div className="container"> */}
-                    <h1 className='pattern-title'>Hamkorlar bilan fikr almashish</h1>
+                    <h1 className='pattern-title'>{t("partner")}</h1>
         <div className="patter-wrapper">
                   <div className='pattern-top'>
                     <img className='pattern-img' src="/partner1.jpg" alt="patter" />

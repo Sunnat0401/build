@@ -1,9 +1,11 @@
+import {useTranslation} from 'react-i18next'
 import './home.css'
 const Home = () => {
+  const {t} = useTranslation()
   return (
     <div className="home">
       <div className="home-wrapper">
-              <h1 className='home-title'>Sizning orzuyingizdagi uy</h1>
+              <h1 className='home-title'>{t("home")}</h1>
               <div className="home-top">
                 <img className='home-img' src="/img1.jpg" alt="image" />
                 <img className='home-img' src="/img2.jpg" alt="image" />
