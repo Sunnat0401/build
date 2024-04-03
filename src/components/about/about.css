@@ -33,3 +33,79 @@
     border: 2px solid #030303;
     background-color: #fff;
 }
+@media screen and (max-width: 800px) {
+    .about{
+        padding: 100px 20px;
+    }
+    .about-title{
+        padding: 20px 0;
+    }
+    .about-subtitle{
+        width: 600px;
+        padding: 30px 0;
+    }
+    .about-link{
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width: 650px) {
+    .about{
+        padding: 80px 20px;
+    }
+    .about-subtitle{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 570px) {
+    .about{
+        padding: 70px 20px;
+    }
+    .about-subtitle{
+        width: 400px;
+    }
+}
+@media screen and (max-width: 470px) {
+    .about{
+        padding: 50px 20px;
+    }
+    .about-title{
+        padding: 10px 0;
+    }
+    .about-subtitle{
+        width: 300px;
+        padding: 30px 0;
+    }
+}
+@media screen and (max-width: 379px) {
+    .about{
+        padding: 40px 20px;
+    }
+    .about-title{
+        padding: 7px 0;
+        font-size: 20px;
+    }
+    .about-subtitle{
+        width: 300px;
+        font-size: 14px;
+    }
+    .about-sublink{
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .about-sublink:hover{
+        color: black;
+        border: 2px solid #030303;
+        background-color: #fff;
+    }
+}
+@media screen and (max-width: 355px) {
+    .about-title{
+        padding: 7px 0;
+        font-size: 18px;
+    }
+    .about-subtitle{
+        width: 220px;
+        font-size: 14px;
+    }
+}

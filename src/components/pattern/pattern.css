@@ -1,5 +1,5 @@
 .pattern{
-    max-width: 1440px;
+    width: 100%;
     margin: 0 auto;
     height: 821px;
     /* border: 2px solid red; */
@@ -27,4 +27,31 @@
     height: 360px;
     background-repeat: no-repeat;
     background-size: cover;
+}
+/* Responsive*/
+@media screen and (max-width: 1100px){
+    .pattern{
+        height: 900px;
+    }
+    .pattern-top {
+       display: flex;
+       flex-wrap: wrap;
+       align-items: center;
+       justify-content: center;
+    }
+
+    .patter-bottom{
+      display: none;
+    }
+    .pattern-top img{
+        width: 520px;
+        height: 360px;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
+@media screen and (max-width: 1065px){
+.pattern{
+    display: none;
+}
 }
