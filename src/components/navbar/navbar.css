@@ -115,7 +115,11 @@
         background-size: cover;     
         background-attachment: fixed;
     }
-    
+    .wrapper{
+        display: block;
+        width: 100%;
+        border: 2px solid red;
+    }
     .navbar-list {
        display: none;
     }
