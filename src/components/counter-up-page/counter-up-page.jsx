@@ -14,7 +14,7 @@ const CounterUpPage = () => {
                <h1>
                                          <CountUp start={0} end={120} duration={2} delay={0.2}/>  +
                </h1>
-        <p>Xodimlar soni</p>
+        <p className='counter-text'>Xodimlar soni</p>
         </span>
                         }
     </ScrollTrigger>
@@ -26,7 +26,7 @@ const CounterUpPage = () => {
                    <h1>
                   <CountUp start={0} end={83} duration={2} delay={0.2}/>  +
                </h1>
-                      <p>Ob'ektlar</p>
+                      <p className='counter-text'>Ob'ektlar</p>
                 </span>
                 }
     </ScrollTrigger>
@@ -39,7 +39,7 @@ const CounterUpPage = () => {
                <h1>
                <CountUp start={0} end={43} duration={2} delay={0.2}/>  +
                </h1>
-               <p>Maxsus jihozlar</p>
+               <p className='counter-text' >Maxsus jihozlar</p>
                </span>
                      }
     </ScrollTrigger>
@@ -52,7 +52,7 @@ const CounterUpPage = () => {
                     <h1>
                <CountUp start={0} end={250} duration={2} delay={0.2}/>  +
                </h1>
-               <p>Bozorda 14 yil</p>
+               <p className='counter-text'>Bozorda 14 yil</p>
                </span>
                 }
     </ScrollTrigger>

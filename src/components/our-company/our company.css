@@ -4,10 +4,28 @@
     background-repeat: no-repeat;
     width: 100%;
     margin: 0 auto;
-    height: 650px;
+    height: 100vh;
     color: white;
 }
 .company-title{
     color: white;
     padding: 100px 0;
+}
+@media screen and (max-width: 720px){
+    .company-title{
+        padding: 60px 0;
+    }
+}
+@media screen and (max-width: 550px){
+    .company-title{
+        padding: 40px 0;
+    }
+}
+@media screen and (max-width: 380px){
+    .company-title{
+        padding: 30px 0;
+    }
+    .company-title{
+        font-size: 28px;
+    }
 }

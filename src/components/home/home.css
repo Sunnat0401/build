@@ -24,3 +24,59 @@ justify-content: center;
     width: 500px;
     height: 350px;
 }
+@media screen and(max-width: 1440px) {
+    .home-img{
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 400px;
+        height: 300px;
+    }
+}
+@media screen and (max-width: 1360px){
+  .home-img{
+      width: 500px;
+      height: 200px;
+  }
+}
+@media screen and (max-width: 1335px){
+    .home-img{
+        width: 400px;
+        height: 200px;
+    }
+  }
+  @media screen and (max-width: 1235px){
+    .home-img{
+        width: 390px;
+        height: 190px;
+    }
+  }
+  @media screen and (max-width: 1195px){
+    .home-img{
+        width: 350px;
+        height: 150px;
+    }
+  }
+  @media screen and (max-width: 700px){
+  
+    .home-img{
+        width: 300px;
+        height: 100px;
+    }
+  }
+  @media screen and (max-width: 550px){
+      .home-bottom{
+        display: block;
+        width: 100%;
+    }
+    .home-img{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+    }
+    .home-top{
+        display: none;
+    }
+    .home-title{
+        font-size: 18px;
+    }
+  }

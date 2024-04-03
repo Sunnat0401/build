@@ -7,3 +7,53 @@ text-align: center;
     align-items: center;
     font-size: 24px;
 }
+@media screen and (max-width: 750px){
+    .counter-info{
+        margin: 10px 0;
+        font-size: 20px;
+    }
+}
+@media screen and (max-width: 618px){
+    .counter-info{
+        margin: 15px 0;
+        padding: 10px 50px 10px 0;
+        font-size: 18px;
+    }
+}
+@media screen and (max-width: 590px){
+    .counter-info{
+        margin: 10px 0;
+        padding: 10px 30px 10px 0;
+        font-size: 18px;
+    }
+    .counter-text{
+  font-size: 18;
+    }
+}
+@media screen and (max-width: 496px){
+    .counter-card{
+        flex-wrap: wrap;
+    }
+    .counter-info{
+        margin: 30px 0;
+    }
+}
+@media screen and (max-width: 422px){
+    .counter-card{
+        flex-wrap: wrap;
+    }
+    .counter-info{
+        padding: 10px 40px 10px 0;
+        font-size: 18px;
+        /* margin: 25px 0; */
+    }
+}
+@media screen and (max-width: 350px){
+    .counter-card{
+        display: block;
+    }
+    .counter-info{
+        padding: 0px 40px 10px 0;
+        font-size: 18px;
+    }
+}
