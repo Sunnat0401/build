@@ -7,7 +7,7 @@ const News = () => {
         <div className="container">
         <h1 className='news-titles'>{t("newsProject")}</h1>
             <div   className="news-wrapper">
-                <div  data-aos="fade-right" className="news-card">
+                <div data-aos="flip-left" className="news-card">
                     <img  src="/new1.jpg" alt="news" />
                     <div className='news-info'>
                         <span></span>
@@ -15,7 +15,7 @@ const News = () => {
                         <p className="news-subtitle">{t("newSubtitle1")}</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="news-card">
+                <div  data-aos="flip-right" className="news-card">
                     <img  src="/new2.jpg" alt="img" />
                     <div className='news-info'>
                              <span className='news-btn'></span>
@@ -23,7 +23,7 @@ const News = () => {
                         <p className="news-subtitle">{t("newSubtitle2")}</p>
                     </div>
                 </div>
-                <div  data-aos="fade-right"  className="news-card">
+                <div  data-aos="flip-left"  className="news-card">
                     <img  src="/new3.jpg" alt="new" />
                     <div className='news-info'>
                         <span></span>
@@ -32,7 +32,7 @@ const News = () => {
                         <p className="news-subtitle">{t("newSubtitle3")}</p>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="news-card">
+                <div data-aos="flip-right"className="news-card">
                     <img  src="/new4.jpg" alt="img" />
                     <div className='news-info'>
                              <span className='news-btn'></span>

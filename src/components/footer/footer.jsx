@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <div className="container">
-            <div className="wrapper">
+            <div className="footer-wrapper">
                 <div className="card">
                     <a href="#" className='footer-imgs'>
                     <img className='footer-img' src="/ataev2.png" alt="ataev" />
