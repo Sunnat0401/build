@@ -1,16 +1,16 @@
-import About from '../about/about'
-import Connect from '../connect/connect'
-import Footer from '../footer/footer'
-import Home from '../home/home'
-import Navbar from '../navbar/navbar'
-import News from '../news/news'
-import OurCompany from '../our-company/our company'
-import Pattern from '../pattern/pattern'
-import Projects from '../projects/projects'
-import Services from '../services/services'
-import translationsEn from '../../locale/translationsEn';
-import translationsUz from '../../locale/translationsUz';
-import './app.css'
+import About from './components/about/about'
+import Connect from './components/connect/connect'
+import Footer from './components/footer/footer'
+import Home from './components/home/home'
+import Navbar from './components/navbar/navbar'
+import News from './components/news/news'
+import OurCompany from './components/our-company/our company'
+import Pattern from './components/pattern/pattern'
+import Projects from './components/projects/projects'
+import Services from './components/services/services'
+import translationsEn from './locale/translationsEn';
+import translationsUz from './locale/translationsUz';
+import './App.css'
 import i18n from 'i18next' ;
 import {initReactI18next} from "react-i18next"
 
