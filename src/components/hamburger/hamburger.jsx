@@ -6,10 +6,10 @@ import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import './hamburger.css';
 import { useTranslation } from "react-i18next";
-export default function TemporaryDrawer({changeLang}) {
+export default function TemporaryDrawer({changeLanguages}) {
 
   const changeLanguageHandlerHamburger = (e) =>{
-    changeLang(e.target.value)
+    changeLanguages(e.target.value)
  }
 
   const {t} = useTranslation()

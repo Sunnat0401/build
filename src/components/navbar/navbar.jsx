@@ -1,14 +1,14 @@
-import React from 'react'
+
 import { useState,  } from 'react'
 import Header from '../header/header'
 import {useTranslation} from 'react-i18next'
 import './navbar.css'
-import TemporaryDrawer from '../humburger/hamburger';
+import TemporaryDrawer from '../hamburger/hamburger';
 
-const Navbar = ({ changeLang }) => {
+const Navbar = ({ changeLanguages }) => {
 
  const changeLanguageHandler = (e) =>{
-    changeLang(e.target.value)
+    changeLanguages(e.target.value)
  }
   const {t} = useTranslation()
     const [color, setColor] = useState(false)
@@ -55,7 +55,7 @@ const changeColor = ()=>{
                 </ul>
     
                     <div className="hamburger">
-                              <TemporaryDrawer changeLang={changeLang}  />
+                              <TemporaryDrawer changeLanguages={changeLanguages}  />
  
                     {/* <img src="/public/icon.svg" alt="hamburger " /> */}
                     </div>

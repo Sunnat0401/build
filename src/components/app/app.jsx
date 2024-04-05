@@ -13,6 +13,7 @@ import translationsUz from '../../locale/translationsUz';
 import './app.css'
 import i18n from 'i18next' ;
 import {initReactI18next} from "react-i18next"
+
 i18n.use(initReactI18next).init({
     resources:{
         en: { translation: translationsEn},
@@ -25,12 +26,12 @@ const App = () => {
   
 //    tillni oo'zgartirirsh 
 
-const  changeLang = (value) =>{
+const  changeLanguages = (value) =>{
   i18n.changeLanguage(value)
 }
   return (
     <div>
-      <Navbar changeLang={changeLang}/>
+      <Navbar changeLanguages={changeLanguages}/>
       <Services/>
       <OurCompany/>
       <Home/>
