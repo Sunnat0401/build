@@ -10,7 +10,7 @@
 .connect-bg{
     width: 1140px;
     height:  600px;
-    background: url('/public/bg2.png');
+    background: url('/bg2.png');
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 50px;

@@ -39,7 +39,7 @@ export default function TemporaryDrawer({changelang}) {
   return (
     <div>
       <Button onClick={toggleDrawer(true)}>
-        <img src="/public/icon.svg" alt="hamburger " />
+        <img src="/icon.svg" alt="hamburger " />
       </Button>
       <Drawer open={open} onClose={toggleDrawer(false)}>
         {DrawerList}
