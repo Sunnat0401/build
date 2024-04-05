@@ -3,7 +3,7 @@ import './home.css'
 const Home = () => {
   const {t} = useTranslation()
   return (
-    <div className="home">
+    <div className="home" id='home'>
       <div className="home-wrapper">
               <h1 className='home-title'>{t("home")}</h1>
               <div className="home-top">

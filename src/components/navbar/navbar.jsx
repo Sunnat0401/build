@@ -1,7 +1,10 @@
+import React from 'react'
+import {AppBar }from '@mui/material';
 import { useState,  } from 'react'
 import Header from '../header/header'
 import {useTranslation} from 'react-i18next'
 import './navbar.css'
+import TemporaryDrawer from '../humburger/hamburger';
 
 const Navbar = ({ changeLang }) => {
 
@@ -27,7 +30,7 @@ const changeColor = ()=>{
                         <a href="#info" className="navbar-link">{t("data")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#about" className="navbar-link">{t("aboutUs")}</a>
+                        <a href="#home" className="navbar-link">{t("aboutUs")}</a>
                     </li>
                     <li className="navbar-item">
                         <a href="#services" className="navbar-link">{t("services")}</a>
@@ -53,7 +56,9 @@ const changeColor = ()=>{
                 </ul>
     
                     <div className="hamburger">
-                    <img src="/public/icon.svg" alt="hamburger " />
+                              <TemporaryDrawer   changeLang={changeLang}/>
+ 
+                    {/* <img src="/public/icon.svg" alt="hamburger " /> */}
                     </div>
                
           

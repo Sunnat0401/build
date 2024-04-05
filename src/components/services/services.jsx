@@ -12,7 +12,7 @@ const Services = () => {
                     <p className="service-text">{t("serviceText1")}</p>
                     <img src="/gold.png" alt="gold" />
                   </div>
-                  <div  data-aos="fade-left" className="services-card ">
+                  <div   data-aos="flip-right" className="services-card ">
                     <p className="service-text">{t("serviceText2")}</p>
                     <img src="/notebook.png" alt="gold" />
                   </div> 

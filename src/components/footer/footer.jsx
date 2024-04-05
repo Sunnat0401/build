@@ -19,11 +19,11 @@ const Footer = () => {
                 </div>
                <div className="card">
                <ul className="footer-lists">
-                    <li className="footer-list"><a className='footer-links' href="#">{t("footerList1")}</a></li>
-                    <li className="footer-list"><a className='footer-link' href="#">{t("footerItem1")} </a></li>
-                    <li className="footer-list"><a className='footer-link' href="#">{t("footerItem2")}</a></li>
-                    <li className="footer-list"><a className='footer-link' href="#">{t("footerItem3")}</a></li>
-                    <li className="footer-list"><a className='footer-link' href="#">{t("footerItem4")}</a></li>
+                    <li className="footer-list"><a className='footer-links' href="#advantages">{t("footerList1")}</a></li>
+                    <li className="footer-list"><a className='footer-link' href="#home">{t("footerItem1")} </a></li>
+                    <li className="footer-list"><a className='footer-link' href="#info">{t("footerItem2")}</a></li>
+                    <li className="footer-list"><a className='footer-link' href="#news">{t("footerItem3")}</a></li>
+                    <li className="footer-list"><a className='footer-link' href="#services">{t("footerItem4")}</a></li>
                 </ul>
                </div>
                <div className="card">
