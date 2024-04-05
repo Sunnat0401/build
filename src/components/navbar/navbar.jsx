@@ -21,7 +21,7 @@ const changeColor = ()=>{
 }
  window.addEventListener('scroll' , changeColor)
   return (
-                <div className= "navbar">
+                <div className= "navbar" id='navbar'>
        <div className={color ? "wrapper active" : "wrapper"}>
             
                 <ul className="navbar-list">

@@ -79,14 +79,14 @@
 .active .navbar-select{
     color: black;
     border-radius: 3px;
-    background-color: rgba(3, 3, 141, 0.922);
+    background-color:  #fce8bd;
 }
 .active .navbar-link:hover::after{
     transform: scale(0);
 }
 .navbar-select{
     padding: 4px 15px;
-    background-color: rgba(12, 12, 230, 0.922);
+    background-color: rgba(68, 68, 246, 0.922);
     color:#fff ;
 }
 .hamburger{
