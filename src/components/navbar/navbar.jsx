@@ -1,5 +1,4 @@
 import React from 'react'
-import {AppBar }from '@mui/material';
 import { useState,  } from 'react'
 import Header from '../header/header'
 import {useTranslation} from 'react-i18next'
@@ -8,7 +7,7 @@ import TemporaryDrawer from '../humburger/hamburger';
 
 const Navbar = ({ changeLang }) => {
 
- const changelangHandler = (e) =>{
+ const changeLanguageHandler = (e) =>{
     changeLang(e.target.value)
  }
   const {t} = useTranslation()
@@ -36,8 +35,8 @@ const changeColor = ()=>{
                         <a href="#services" className="navbar-link">{t("services")}</a>
                     </li>
                     <li className="navbar-item">
-                        <a href="#" className="navbar-link">
-                            <img src="/ataev.png" alt="ataev" />
+                        <a href="#navbar" className="navbar-link">
+                            <img src="/logo1.png" alt="logo1" />
                         </a>
                     </li>
                     <li className="navbar-item">
@@ -49,14 +48,14 @@ const changeColor = ()=>{
                     <li className="navbar-item">
                         <a href="#connect" className="navbar-link">{t("contact")}</a>
                     </li>     
-                    <select className='navbar-select' onChange={changelangHandler}>
+                    <select className='navbar-select' onChange={changeLanguageHandler}>
                                 <option value="uz">Uz</option>
                                 <option value="en">En</option>
                             </select>
                 </ul>
     
                     <div className="hamburger">
-                              <TemporaryDrawer   changeLang={changeLang}/>
+                              <TemporaryDrawer changeLang={changeLang}  />
  
                     {/* <img src="/public/icon.svg" alt="hamburger " /> */}
                     </div>

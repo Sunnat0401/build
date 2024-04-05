@@ -5,31 +5,38 @@ import Button from "@mui/material/Button";
 import List from "@mui/material/List";
 import Divider from "@mui/material/Divider";
 import './hamburger.css';
+import { useTranslation } from "react-i18next";
+export default function TemporaryDrawer({changeLang}) {
 
-export default function TemporaryDrawer({changelang}) {
-  const [open, setOpen] = React.useState(false);
-
-  const toggleDrawer = (newOpen) => () => {
-    setOpen(newOpen);
-  };
-  const changelangHandlerHamburger = (e) =>{
+  const changeLanguageHandlerHamburger = (e) =>{
     changeLang(e.target.value)
  }
 
+  const {t} = useTranslation()
+  const [open, setOpen] = React.useState(false);
+
+  const toggleDrawer =  () => {
+    setOpen(true);
+  };
+  const onCloseD = () =>{
+    setOpen(false)
+  }
+  
+
   const DrawerList = (
-    <Box sx={{ width: 250 }} role="presentation" onClick={toggleDrawer(false)}>
+    <Box sx={{ width: 250 }}  >
       <List className="hamburger-open">
            <ul className="hamburger-lists">
-            <li className="hamburger-list"><a className="hamburger-link" href="#info">Malumotlar</a></li>
-            <li className="hamburger-list"><a className="hamburger-link" href="#news">Biz haqimizda</a></li>
-            <li className="hamburger-list"><a className="hamburger-link" href="#services">Xizmatlar</a></li>
-            <li className="hamburger-list"><a className="hamburger-link" href="#advantages">Afzalliklarimiz</a></li>
-            <li className="hamburger-list"><a className="hamburger-link" href="#news">Yangiliklar</a></li>
-            <li className="hamburger-list"><a className="hamburger-link" href="#connect">Aloqa</a></li>
+            <li onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#info">{t("data")}</a></li>
+            <li  onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#news">{t("aboutUs")}</a></li>
+            <li  onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#services">{t("services")}</a></li>
+            <li   onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#advantages">{t("ourAdvantages")}</a></li>
+            <li  onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#news">{t("news")}</a></li>
+            <li  onClick={onCloseD} className="hamburger-list"><a className="hamburger-link" href="#connect">{t("contact")}</a></li>
            </ul>
-           <select className='navbar-select hamburger-select' onClick={changelangHandlerHamburger} >
-                                <option value="uz">Uz</option>
-                                <option value="en">En</option>
+           <select  onChange={changeLanguageHandlerHamburger} className='navbar-select hamburger-select'  >
+                                <option onClick={onCloseD} value="uz">Uz</option>
+                                <option onClick={onCloseD}  value="en">En</option>
             </select>
       </List>
       <Divider />
@@ -38,10 +45,10 @@ export default function TemporaryDrawer({changelang}) {
 
   return (
     <div>
-      <Button onClick={toggleDrawer(true)}>
+      <Button onClick={toggleDrawer}>
         <img src="/icon.svg" alt="hamburger " />
       </Button>
-      <Drawer open={open} onClose={toggleDrawer(false)}>
+      <Drawer open={open} onClose={onCloseD}>
         {DrawerList}
       </Drawer>
     </div>

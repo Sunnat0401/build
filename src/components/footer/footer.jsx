@@ -7,8 +7,8 @@ const Footer = () => {
         <div className="container">
             <div className="footer-wrapper">
                 <div className="card">
-                    <a href="#" className='footer-imgs'>
-                    <img className='footer-img' src="/ataev2.png" alt="ataev" />
+                    <a href="#navbar" className='footer-imgs'>
+                    <img className='footer-img' src="/logo2.png" alt="logo" />
                     </a>
                     <h2 className='footer-title'>{t("footerInfo")}</h2>
                    <ul className='card-lists'>
@@ -28,7 +28,7 @@ const Footer = () => {
                </div>
                <div className="card">
                <ul className="footer-items">
-                    <li className="footer-item"><a  className='footer-links' href="#">{t("footerList2")}</a></li>
+                    <li className="footer-item"><a  className='footer-links' href="#navbar">{t("footerList2")}</a></li>
                     <li className="footer-item"><a   className='footer-link' href="+998 90 124 94 74">+998 90 124 94 74 </a></li>
                     <li className="footer-item"><a  className='footer-link' href="+ 998 93 666 99 74">+ 998 93 666 99 74</a></li>
                 </ul>
