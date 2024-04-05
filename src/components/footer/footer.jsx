@@ -29,8 +29,8 @@ const Footer = () => {
                <div className="card">
                <ul className="footer-items">
                     <li className="footer-item"><a  className='footer-links' href="#">{t("footerList2")}</a></li>
-                    <li className="footer-item"><a   className='footer-link' href="#">+998 90 124 94 74 </a></li>
-                    <li className="footer-item"><a  className='footer-link' href="#">+ 998 93 666 99 74</a></li>
+                    <li className="footer-item"><a   className='footer-link' href="+998 90 124 94 74">+998 90 124 94 74 </a></li>
+                    <li className="footer-item"><a  className='footer-link' href="+ 998 93 666 99 74">+ 998 93 666 99 74</a></li>
                 </ul>
                </div>
             </div>
