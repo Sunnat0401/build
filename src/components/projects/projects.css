@@ -26,7 +26,7 @@
 .card-right{
     width: 540px;
     height: 320px;
-    background: rgba(0,0,0,0.5) url('/public/mgc1.webp');
+    background: rgba(0,0,0,0.5) url('/mgc1.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -38,7 +38,7 @@
 .card-left{
     width: 540px;
     height: 320px;
-    background: rgba(0,0,0,0.5)  url('/public/mg2.webp');
+    background: rgba(0,0,0,0.5)  url('/mg2.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -67,7 +67,7 @@
    position: relative;
 }
 .img3{
-    background: rgba(0,0,0,0.5) url('/public/mgc3.webp');
+    background: rgba(0,0,0,0.5) url('/mgc3.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -76,7 +76,7 @@
    position: relative;
 }
 .img4{
-    background: rgba(0,0,0,0.5) url('/public/mgc5.webp');
+    background: rgba(0,0,0,0.5) url('/mgc5.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -85,7 +85,7 @@
    position: relative;
 }
 .img5{
-    background: rgba(0,0,0,0.5) url('/public/mgc5.webp');
+    background: rgba(0,0,0,0.5) url('/mgc5.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
@@ -94,7 +94,7 @@
    position: relative;
 }
 .img6{
-    background:  rgba(0,0,0,0.5) url('/public/mgc7.webp');
+    background:  rgba(0,0,0,0.5) url('/mgc7.webp');
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
